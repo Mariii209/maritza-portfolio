@@ -60,3 +60,13 @@
     gap: 25px;
   }
 }
+
+@media (max-width: 640px) {
+  .About .Description-container {
+    width: 70%;
+  }
+  .About .Maritza-image-container .Profile-img {
+    width: 220px;
+    height: 220px;
+  }
+}
