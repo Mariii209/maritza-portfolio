@@ -16,6 +16,10 @@
   width: 600px;
 }
 
+.Skills .Skill-category:last-child {
+  margin-top: 45px;
+}
+
 .Skills .Skill-category h5 {
   color: #0f172b;
   font-size: 20px;
