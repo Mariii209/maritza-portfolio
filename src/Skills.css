@@ -12,6 +12,10 @@
   line-height: 35px;
 }
 
+.Skills .Skill-tool-container {
+  display: flex;
+}
+
 .Skills .Skill-category {
   width: 600px;
 }
