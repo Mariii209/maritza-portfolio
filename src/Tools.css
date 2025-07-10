@@ -46,10 +46,10 @@
 .Tools .Goals h6 {
   color: #0f172b;
   font-family: Inter;
-  font-size: 15.059px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24.5px;
+  line-height: 25px;
   margin-bottom: 11px;
 }
 
@@ -67,4 +67,24 @@
 
 .Tools .Goals ul li:not(:last-child) {
   margin-bottom: 4px;
+}
+
+@media (max-width: 695px) {
+  .Tools h5 {
+    font-size: 18px;
+  }
+
+  .Tools .Tool p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Tools .Goals h6 {
+    font-size: 14px;
+  }
+
+  .Tools .Goals ul li {
+    font-size: 10px;
+  }
 }
