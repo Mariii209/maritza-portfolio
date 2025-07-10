@@ -4,11 +4,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 3% 5%;
 }
 
 .Home h1 {
   text-align: center;
-
   font-size: 59px;
   font-style: normal;
   font-weight: 400;
@@ -100,4 +100,54 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 24px;
+  animation: moveDown 1s infinite;
+}
+
+@keyframes moveDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 769px) {
+  .Home h1 {
+    font-size: 55px;
+  }
+
+  .Home h6 {
+    font-size: 18px;
+  }
+
+  .Home .Home-description {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 640px) {
+  .Home h1 {
+    font-size: 50px;
+  }
+
+  .Home h6 {
+    font-size: 17px;
+  }
+
+  .Home .Home-description {
+    font-size: 12px;
+  }
+
+  .Home .Home-socials a {
+    font-size: 18px;
+  }
+
+  .Home .Down-arrow {
+    font-size: 21px;
+  }
 }
