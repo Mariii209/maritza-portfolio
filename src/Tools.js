@@ -11,63 +11,63 @@ export default function Tools() {
         </div>
 
         <div className="Tool">
-          <p>HTML5</p>
+          <p>JavaScript (ES6)</p>
         </div>
 
         <div className="Tool">
-          <p>HTML5</p>
+          <p>Tailwind CSS</p>
         </div>
 
         <div className="Tool">
-          <p>HTML5</p>
+          <p>Git & GitHub</p>
         </div>
 
         <div className="Tool">
-          <p>HTML5</p>
+          <p>Figma</p>
         </div>
 
         <div className="Tool">
-          <p>HTML5</p>
+          <p>Netlify (Hosting)</p>
         </div>
 
         <div className="Tool">
-          <p>HTML5</p>
+          <p>ChatGPT AI</p>
         </div>
 
         <div className="Tool">
-          <p>HTML5</p>
+          <p>Responsive Design</p>
         </div>
 
         <div className="Tool">
-          <p>HTML5</p>
+          <p>CSS3</p>
         </div>
 
         <div className="Tool">
-          <p>HTML5</p>
+          <p>React</p>
         </div>
 
         <div className="Tool">
-          <p>HTML5</p>
+          <p>Bootstrap</p>
         </div>
 
         <div className="Tool">
-          <p>HTML5</p>
+          <p>VS Code</p>
         </div>
 
         <div className="Tool">
-          <p>HTML5</p>
+          <p>Chrome DevTools</p>
         </div>
 
         <div className="Tool">
-          <p>HTML5</p>
+          <p>APIs (RESTful APIs)</p>
         </div>
 
         <div className="Tool">
-          <p>HTML5</p>
+          <p>SEO Basics</p>
         </div>
 
         <div className="Tool">
-          <p>HTML5</p>
+          <p>NPM</p>
         </div>
       </div>
     </div>

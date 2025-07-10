@@ -14,10 +14,12 @@
 
 .Skills .Skill-tool-container {
   display: flex;
+  gap: 42px;
+  margin-top: 42px;
 }
 
 .Skills .Skill-category {
-  width: 600px;
+  width: 500px;
 }
 
 .Skills .Skill-category:last-child {

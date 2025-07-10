@@ -1,2 +1,37 @@
 .Tools {
+  max-width: 600px;
+  width: 100%;
+}
+
+.Tools h5 {
+  color: #0f172b;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 28px;
+}
+
+.Tools .Tools-category {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(8, auto); /* 8 rows */
+  gap: 14px;
+}
+
+.Tools .Tool {
+  border-radius: 8.75px;
+  background: #fff;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+  padding: 17px 0;
+}
+
+.Tools .Tool p {
+  color: #0f172b;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
 }
