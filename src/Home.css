@@ -1,0 +1,103 @@
+.Home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Home h1 {
+  text-align: center;
+
+  font-size: 59px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 78px;
+}
+
+.Home h6 {
+  color: #45556c;
+  text-align: center;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.Home .Home-description {
+  color: #62748e;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 14px 0 26px;
+}
+
+.Home .Home-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Home .Home-links i {
+  font-size: 14;
+  color: #0a0a0a;
+}
+
+.Home .Home-links__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  padding: 11px 21px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+}
+
+.Home .Home-links__item p {
+  color: #0a0a0a;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.Home .Item-dark {
+  background-color: #0a0a0a;
+  text-decoration: none;
+  padding: 11px 21px;
+  border-radius: 7px;
+}
+
+.Home .Item-dark p {
+  color: #ffffff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.Home .Home-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin: 34px 0 49px;
+}
+
+.Home .Home-socials a {
+  color: #45556c;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.Home .Down-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
