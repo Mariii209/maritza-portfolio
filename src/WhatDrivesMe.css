@@ -1,7 +1,50 @@
 .WhatDrivesMe {
   display: flex;
   padding: 5%;
+  text-align: center;
+  justify-content: center;
+  gap: 28px;
 }
 
 .WhatDrivesMe .Drive-item {
+  border-radius: 13px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+  padding: 2%;
+}
+
+.WhatDrivesMe .DriveItem-navigation i {
+  font-size: 42px;
+}
+
+.WhatDrivesMe .Learning {
+  color: #155dfc;
+}
+
+.WhatDrivesMe .Creativity {
+  color: #9810fa;
+}
+
+.WhatDrivesMe .Eager {
+  color: #d08700;
+}
+
+.WhatDrivesMe h6 {
+  color: #0a0a0a;
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 14px 0 10px;
+}
+
+.WhatDrivesMe p {
+  color: #45556c;
+  text-align: center;
+
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
 }
