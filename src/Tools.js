@@ -70,14 +70,14 @@ export default function Tools() {
           <p>NPM</p>
         </div>
       </div>
-      <div>
+      <div className="Goals">
         <h6>Learning Goals</h6>
         <ul>
-          <li>Master TypeScript for better code quality</li>
-          <li>Build full-stack applications with Node.js</li>
-          <li>Learn testing frameworks like Jest</li>
-          <li>Explore modern deployment strategies</li>
-          <li>Deepen knowledge of state management</li>
+          <li>• Master TypeScript for better code quality</li>
+          <li>• Build full-stack applications with Node.js</li>
+          <li>• Learn testing frameworks like Jest</li>
+          <li>• Explore modern deployment strategies</li>
+          <li>• Deepen knowledge of state management</li>
         </ul>
       </div>
     </div>
