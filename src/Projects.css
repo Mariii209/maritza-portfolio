@@ -11,7 +11,7 @@
   line-height: 35px;
 }
 
-.Projects p {
+.Projects .All-projects {
   color: #45556c;
   text-align: center;
   font-size: 13px;
@@ -26,7 +26,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, auto);
-  gap: 10px;
+  gap: 29px;
 }
 
 .Projects .Project-container {
@@ -47,8 +47,82 @@
 
 .Projects h5 {
   color: #0a0a0a;
-  font-size: 17px;
+  font-size: 19px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
+}
+
+.Projects .Project-info .Project-description {
+  color: #45556c;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 71px 0 19px;
+}
+
+.Projects .Project-info ul {
+  display: flex;
+  list-style: none;
+  gap: 7px;
+  margin: 23px 0 26px;
+}
+
+.Projects .Project-info ul li {
+  color: #030213;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  border-radius: 6.75px;
+  background: #eceef2;
+  padding: 5px 7px;
+}
+
+.Projects .Project-links {
+  display: flex;
+  gap: 7px;
+}
+
+.Projects .Project-links .Project-link {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 15px;
+  padding: 7px 0;
+  border-radius: 6.75px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.Projects .Project-links .Dark {
+  background: #030213;
+}
+
+.Light {
+  color: white !important;
+}
+
+.Projects .Project-links .Project-link p {
+  color: #0a0a0a;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Projects .Project-links .Project-link i {
+  font-size: 14px;
+  color: #0a0a0a;
+}
+
+@media (max-width: 780px) {
+  .Projects .Project-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
 }
