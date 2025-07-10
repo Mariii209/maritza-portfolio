@@ -70,3 +70,31 @@
   width: 0; /* you can animate this */
   transition: width 0.5s ease-in-out;
 }
+
+@media (max-width: 1025px) {
+  .Skills .Skill-category {
+    width: 400px;
+  }
+}
+
+@media (max-width: 880px) {
+  .Skills .Skill-category {
+    width: 300px;
+  }
+}
+
+@media (max-width: 695px) {
+  .Skills .Skill-tool-container {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    margin-top: 42px;
+  }
+
+  .Skills .Skill-info {
+    display: grid;
+    grid-template-columns: 1fr; /* One full-width column */
+    gap: 10px; /* Space between rows */
+    width: 100%;
+  }
+}
