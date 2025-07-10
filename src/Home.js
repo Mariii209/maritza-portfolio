@@ -3,19 +3,28 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <div className="Home">
-      <h1>Maritza Gutierrez</h1>
-      <h6>Junior Front-End Developer</h6>
+    <main className="Home">
+      <header>
+        <h1>Maritza Gutierrez</h1>
+        <h6>Junior Front-End Developer</h6>
+      </header>
+
       <p className="Home-description">
         Recent bootcamp graduate with a passion for creating beautiful,
         responsive web applications. Ready to contribute to meaningful projects
         and grow as a developer in a collaborative team environment.
       </p>
+
       <div className="Home-links">
         <a href="/" className="Home-links__item Item-dark">
           <p>View My Projects</p>
         </a>
-        <a href="/" className="Home-links__item">
+        <a
+          href="/"
+          download
+          className="Home-links__item"
+          aria-label="Download Resume"
+        >
           <i class="fa-solid fa-download"></i>
           <p>Download Resume</p>
         </a>
@@ -35,6 +44,6 @@ export default function Home() {
         </a>
       </div>
       <i class="fa-solid fa-arrow-down Down-arrow"></i>
-    </div>
+    </main>
   );
 }
