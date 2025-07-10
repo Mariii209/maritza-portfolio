@@ -143,6 +143,15 @@
     font-size: 12px;
   }
 
+  .Home .Home-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Home .Home-links__item {
+    width: 360px;
+  }
+
   .Home .Home-socials a {
     font-size: 18px;
   }
