@@ -27,7 +27,7 @@ export default function About() {
             development trends and technologies.
           </p>
         </div>
-        <div className="Maritza-image-container">
+        <div className="Maritza-image-container ">
           <div className="Image-container">
             <img
               src="/maritza.jpeg"

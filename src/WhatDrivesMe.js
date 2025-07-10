@@ -25,7 +25,7 @@ export default function WhatDrivesMe() {
           on.
         </p>
       </div>
-      <div className="Drive-item">
+      <div className="Drive-item Bottom">
         <div className="DriveItem-navigation">
           <i class="fa-solid fa-bolt Eager"></i>
         </div>
