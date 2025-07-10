@@ -1,11 +1,12 @@
 import React from "react";
+import "./About.css";
 
 export default function About() {
   return (
     <div className="About">
       <h2>About Me</h2>
-      <div>
-        <div>
+      <div className="About-container">
+        <div className="Description-container">
           <p>
             After exploring different career paths, I discovered my passion for
             web development and made the exciting decision to transition into
@@ -26,9 +27,13 @@ export default function About() {
             development trends and technologies.
           </p>
         </div>
-        <div>
-          <div>
-            <img src="/maritza.jpeg" alt="Maritza Gutierrez" />
+        <div className="Maritza-image-container">
+          <div className="Image-container">
+            <img
+              src="/maritza.jpeg"
+              alt="Maritza Gutierrez"
+              className="Profile-img"
+            />
           </div>
         </div>
       </div>
