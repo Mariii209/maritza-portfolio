@@ -21,13 +21,14 @@
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
+  margin: 24px 0 46px;
 }
 
 .Education .Education-learning-journey {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 10px;
+  gap: 28px;
 }
 
 .Education .Education-learning-journey > section {
@@ -76,7 +77,6 @@
 
 .Education .Journey-container h5 {
   color: #0a0a0a;
-
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -90,6 +90,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
+  margin: 6px 0 24px;
 }
 
 .Education .Stats {
@@ -129,6 +130,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
+  margin: 14px 0 7px;
 }
 
 .Education .Skills-learned ul {
@@ -157,6 +159,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
+  margin: 14px 0 7px;
 }
 
 .Education .Learning ul {
