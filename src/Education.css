@@ -1,6 +1,97 @@
 .Education {
+  padding: 5%;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Education h2 {
+  color: #0f172b;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.Education .My-path {
+  color: #45556c;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
 }
 
 .Education .Education-learning-journey {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.Education .Education-learning-journey > section {
+  flex: 1;
+}
+
+.Education .Cap {
+  display: inline-block;
+  padding: 11px;
+  border-radius: 33554400px;
+  border: 2px solid #e2e8f0;
+  background: #fff;
+}
+
+.Education .Cap i {
+  font-size: 21px;
+  color: #155dfc;
+}
+
+.Education .Growing {
+  display: flex;
+  padding: 11px;
+  border-radius: 33554400px;
+  border: 2px solid #e2e8f0;
+  background: #fff;
+}
+
+.Education .Growing i {
+  font-size: 21px;
+  color: #00a63e;
+}
+
+.Education section {
+  display: flex;
+  gap: 21px;
+}
+
+.Education .Journey-container {
+  padding: 4%;
+  border-radius: 12.75px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.Education .Journey-container h5 {
+  color: #0a0a0a;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.Education .Journey-container .Title,
+.Description {
+  color: #45556c;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.Education .Stats {
   display: flex;
 }

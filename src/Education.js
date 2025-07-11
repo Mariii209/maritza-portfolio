@@ -5,15 +5,17 @@ export default function Education() {
   return (
     <div className="Education">
       <h2>Education & Learning Journey</h2>
-      <p>
+      <p className="My-path">
         My path into front-end development, including formal training,
         self-directed learning, and transferable skills from my previous
         experience.
       </p>
       <div className="Education-learning-journey">
         <section>
-          <div className="Cap">
-            <i class="fa-solid fa-graduation-cap"></i>
+          <div>
+            <div className="Cap">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
           </div>
           <div className="Journey-container">
             <h5>Front-End Development Bootcamp</h5>
@@ -23,14 +25,14 @@ export default function Education() {
               technologies and best practices. Completed multiple real-world
               projects and worked in collaborative environments.
             </p>
-            <div className="stats">
-              <div className="stat">
-                <p className="stat-value">9</p>
-                <p className="stat-label">Projects Completed</p>
+            <div className="Stats">
+              <div className="Stat">
+                <p className="Stat-value">9</p>
+                <p className="Stat-label">Projects Completed</p>
               </div>
-              <div className="stat">
-                <p className="stat-value">480+</p>
-                <p className="stat-label">Hours of Training</p>
+              <div className="Stat">
+                <p className="Stat-value">480+</p>
+                <p className="Stat-label">Hours of Training</p>
               </div>
             </div>
             <div className="Skills-learned">
@@ -53,9 +55,11 @@ export default function Education() {
         </section>
 
         <section>
-          <div className="Growing">
-            <i class="fas fa-chevron-left Learning"></i>
-            <i class="fas fa-chevron-right Learning"></i>
+          <div>
+            <div className="Growing">
+              <i class="fas fa-chevron-left Learning"></i>
+              <i class="fas fa-chevron-right Learning"></i>
+            </div>
           </div>
           <div className="Journey-container">
             <h5>Self-Directed Learning</h5>
