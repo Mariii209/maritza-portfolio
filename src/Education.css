@@ -1,2 +1,6 @@
-.Eduction {
+.Education {
+}
+
+.Education .Education-learning-journey {
+  display: flex;
 }
