@@ -37,27 +37,27 @@
 
 .Education .Cap {
   display: inline-block;
-  padding: 11px;
+  padding: 10px;
   border-radius: 33554400px;
   border: 2px solid #e2e8f0;
   background: #fff;
 }
 
 .Education .Cap i {
-  font-size: 21px;
+  font-size: 16px;
   color: #155dfc;
 }
 
 .Education .Growing {
   display: flex;
-  padding: 11px;
+  padding: 10px;
   border-radius: 33554400px;
   border: 2px solid #e2e8f0;
   background: #fff;
 }
 
 .Education .Growing i {
-  font-size: 21px;
+  font-size: 16px;
   color: #00a63e;
 }
 
@@ -175,4 +175,29 @@
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
+}
+
+@media (max-width: 650px) {
+  .Education .Stats {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .Education .Cap {
+    padding: 7px;
+  }
+
+  .Education .Cap i {
+    font-size: 15px;
+    color: #155dfc;
+  }
+
+  .Education .Growing {
+    padding: 7px;
+  }
+
+  .Education .Growing i {
+    font-size: 15px;
+    color: #00a63e;
+  }
 }
