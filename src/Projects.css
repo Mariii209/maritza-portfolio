@@ -119,6 +119,41 @@
   color: #0a0a0a;
 }
 
+.Projects .Projects-coming {
+  color: #45556c;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 42px auto 21px;
+}
+
+.More-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 15px;
+  padding: 7px 0;
+  border-radius: 6.75px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.Projects .More-project p {
+  color: #0a0a0a;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Projects .More-project i {
+  font-size: 14px;
+  color: #0a0a0a;
+}
+
 @media (max-width: 780px) {
   .Projects .Project-section {
     grid-template-columns: 1fr;
@@ -129,5 +164,11 @@
 @media (min-width: 800px) {
   .Projects .All-projects {
     width: 600px;
+  }
+
+  .More-project {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
   }
 }

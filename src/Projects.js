@@ -127,6 +127,14 @@ export default function Projects() {
           </div>
         </div>
       </div>
+      <p className="Projects-coming">
+        More projects coming soon! I'm constantly working on new ideas and
+        expanding my portfolio.
+      </p>
+      <a href="/" className="More-project">
+        <i class="fa-brands fa-github"></i>
+        <p>View All on GitHub</p>
+      </a>
     </div>
   );
 }
