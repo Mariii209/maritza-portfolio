@@ -84,11 +84,11 @@ export default function Education() {
             <div className="Learning">
               <h6>Learning Resources:</h6>
               <ul>
-                <li>YouTube tutorials</li>
-                <li>freeCodeCamp</li>
-                <li>MDN Web Docs</li>
-                <li>React documentation</li>
-                <li>ChatGPT</li>
+                <li> YouTube tutorials</li>
+                <li>• freeCodeCamp</li>
+                <li>• MDN Web Docs</li>
+                <li>• React documentation</li>
+                <li>• ChatGPT</li>
               </ul>
             </div>
           </div>
