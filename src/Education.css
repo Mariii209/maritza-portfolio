@@ -94,4 +94,59 @@
 
 .Education .Stats {
   display: flex;
+  border-radius: 8.75px;
+  background: #eff6ff;
+  padding: 14px 0;
+}
+
+.Education .Stats > .Stat {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Education .Stat-value {
+  color: #0a0a0a;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.Education .Stat-label {
+  color: #45556c;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.Education .Skills-learned h6 {
+  color: #0a0a0a;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Education .Skills-learned ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 7px;
+}
+
+.Education .Skills-learned ul li {
+  color: #030213;
+  white-space: nowrap;
+  line-height: 14px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  border-radius: 6.75px;
+  background: #eceef2;
+  padding: 5px 7px;
 }

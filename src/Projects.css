@@ -63,6 +63,7 @@
 
 .Projects .Project-info ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   gap: 7px;
   margin: 23px 0 26px;

@@ -25,7 +25,7 @@ export default function Home() {
           className="Home-links__item"
           aria-label="Download Resume"
         >
-          <i class="fa-solid fa-download"></i>
+          <i className="fa-solid fa-download"></i>
           <p>Download Resume</p>
         </a>
         <a href="/" className="Home-links__item">
@@ -34,16 +34,16 @@ export default function Home() {
       </div>
       <div className="Home-socials">
         <a href="/">
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github"></i>
         </a>
         <a href="/">
-          <i class="fa-brands fa-linkedin"></i>
+          <i className="fa-brands fa-linkedin"></i>
         </a>
         <a href="/">
-          <i class="fa-regular fa-envelope"></i>
+          <i className="fa-regular fa-envelope"></i>
         </a>
       </div>
-      <i class="fa-solid fa-arrow-down Down-arrow"></i>
+      <i className="fa-solid fa-arrow-down Down-arrow"></i>
     </main>
   );
 }

@@ -29,11 +29,11 @@ export default function Projects() {
             </ul>
             <div className="Project-links">
               <a href="/" className="Project-link">
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
                 <p>Code</p>
               </a>
               <a href="/" className="Project-link Dark">
-                <i class="fa-solid fa-arrow-up-right-from-square Light"></i>
+                <i className="fa-solid fa-arrow-up-right-from-square Light"></i>
                 <p className="Light">Live Demo</p>
               </a>
             </div>
@@ -58,11 +58,11 @@ export default function Projects() {
             </ul>
             <div className="Project-links">
               <a href="/" className="Project-link">
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
                 <p>Code</p>
               </a>
               <a href="/" className="Project-link Dark">
-                <i class="fa-solid fa-arrow-up-right-from-square Light"></i>
+                <i className="fa-solid fa-arrow-up-right-from-square Light"></i>
                 <p className="Light">Live Demo</p>
               </a>
             </div>
@@ -87,11 +87,11 @@ export default function Projects() {
             </ul>
             <div className="Project-links">
               <a href="/" className="Project-link">
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
                 <p>Code</p>
               </a>
               <a href="/" className="Project-link Dark">
-                <i class="fa-solid fa-arrow-up-right-from-square Light"></i>
+                <i className="fa-solid fa-arrow-up-right-from-square Light"></i>
                 <p className="Light">Live Demo</p>
               </a>
             </div>
@@ -116,11 +116,11 @@ export default function Projects() {
             </ul>
             <div className="Project-links">
               <a href="/" className="Project-link">
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
                 <p>Code</p>
               </a>
               <a href="/" className="Project-link Dark">
-                <i class="fa-solid fa-arrow-up-right-from-square Light"></i>
+                <i className="fa-solid fa-arrow-up-right-from-square Light"></i>
                 <p className="Light">Live Demo</p>
               </a>
             </div>
@@ -132,7 +132,7 @@ export default function Projects() {
         expanding my portfolio.
       </p>
       <a href="/" className="More-project">
-        <i class="fa-brands fa-github"></i>
+        <i className="fa-brands fa-github"></i>
         <p>View All on GitHub</p>
       </a>
     </div>

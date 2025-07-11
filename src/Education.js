@@ -14,7 +14,7 @@ export default function Education() {
         <section>
           <div>
             <div className="Cap">
-              <i class="fa-solid fa-graduation-cap"></i>
+              <i className="fa-solid fa-graduation-cap"></i>
             </div>
           </div>
           <div className="Journey-container">
@@ -57,8 +57,8 @@ export default function Education() {
         <section>
           <div>
             <div className="Growing">
-              <i class="fas fa-chevron-left Learning"></i>
-              <i class="fas fa-chevron-right Learning"></i>
+              <i className="fas fa-chevron-left Learning"></i>
+              <i className="fas fa-chevron-right Learning"></i>
             </div>
           </div>
           <div className="Journey-container">

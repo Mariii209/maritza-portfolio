@@ -6,8 +6,8 @@ export default function WhatDrivesMe() {
     <div className="WhatDrivesMe">
       <div className="Drive-item">
         <div className="DriveItem-navigation">
-          <i class="fas fa-chevron-left Learning"></i>
-          <i class="fas fa-chevron-right Learning"></i>
+          <i className="fas fa-chevron-left Learning"></i>
+          <i className="fas fa-chevron-right Learning"></i>
         </div>
         <h6>Learning & Growth</h6>
         <p>
@@ -17,7 +17,7 @@ export default function WhatDrivesMe() {
       </div>
       <div className="Drive-item">
         <div className="DriveItem-navigation">
-          <i class="fa-solid fa-palette Creativity"></i>
+          <i className="fa-solid fa-palette Creativity"></i>
         </div>
         <h6>Fresh Perspective</h6>
         <p>
@@ -27,7 +27,7 @@ export default function WhatDrivesMe() {
       </div>
       <div className="Drive-item Bottom">
         <div className="DriveItem-navigation">
-          <i class="fa-solid fa-bolt Eager"></i>
+          <i className="fa-solid fa-bolt Eager"></i>
         </div>
         <h6>Enthusiasm</h6>
         <p>
