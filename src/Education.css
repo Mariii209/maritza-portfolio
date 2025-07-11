@@ -200,4 +200,9 @@
     font-size: 15px;
     color: #00a63e;
   }
+
+  .Education .Education-learning-journey > section {
+    flex: 1;
+    gap: 6px;
+  }
 }
