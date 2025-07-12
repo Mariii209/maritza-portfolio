@@ -1,0 +1,52 @@
+.Resume {
+  padding: 5%;
+}
+
+.Resume h1 {
+  color: #0f172b;
+  text-align: center;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.Resume .About-resume {
+  color: #45556c;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 17px 0 46px;
+}
+
+.Resume .Information {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+.Resume .Dark {
+  background: #0f172b !important;
+  color: #fff !important;
+}
+.Resume .Information a {
+  text-decoration: none;
+  display: flex;
+  gap: 13px;
+  color: #0a0a0a;
+  align-items: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 11px 15px;
+  line-height: 18px;
+}
+
+.Resume .Information i {
+  font-size: 14px;
+}
