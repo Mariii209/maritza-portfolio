@@ -1,0 +1,26 @@
+.Contact {
+  background-color: #f8fafc;
+}
+
+.Contact .Contact-section {
+  padding: 5%;
+}
+
+.Contact h2 {
+  color: #0f172b;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.Contact .Contact-description {
+  color: #45556c;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 24px 0 46px;
+}
