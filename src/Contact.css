@@ -4,6 +4,9 @@
 
 .Contact .Contact-section {
   padding: 5%;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .Contact h2 {
@@ -23,4 +26,12 @@
   font-weight: 400;
   line-height: 21px;
   margin: 24px 0 46px;
+}
+
+.Contact .Contact-form {
+  border-radius: 13px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 4px 6px -4px rgba(0, 0, 0, 0.1);
 }
