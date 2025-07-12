@@ -15,10 +15,6 @@ export default function Resume() {
           <p>Download PDF</p>
         </a>
         <a href="/">
-          <i className="fa-solid fa-eye"></i>
-          <p>View Full Size</p>
-        </a>
-        <a href="/">
           <i className="fa-solid fa-envelope"></i>
           <p>Contact Me</p>
         </a>
