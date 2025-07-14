@@ -28,13 +28,9 @@
   margin: 24px 0 46px;
 }
 
-.Contact .Contact-information {
-  max-width: 400px;
-  width: 100%;
-}
-
 .Contact .Contact-container {
   display: flex;
+  gap: 28px;
 }
 
 .Contact .Contact-form {
@@ -69,9 +65,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
-}
-
-.Contact .Form-group .Input-wrapper {
 }
 
 .Contact .Form-group .Input-wrapper input {
@@ -132,4 +125,20 @@
 
 .Contact button p {
   font-size: 12px;
+}
+
+@media (max-width: 795px) {
+  .Contact .Contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Contact .Form-group .Input-wrapper input,
+  .Contact .Subject input,
+  .Contact .Message textarea {
+    font-size: 10px;
+  }
 }
