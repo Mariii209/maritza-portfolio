@@ -28,10 +28,108 @@
   margin: 24px 0 46px;
 }
 
+.Contact .Contact-information {
+  max-width: 400px;
+  width: 100%;
+}
+
+.Contact .Contact-container {
+  display: flex;
+}
+
 .Contact .Contact-form {
   border-radius: 13px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: #fff;
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
     0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  padding: 2%;
+}
+
+.Contact .Contact-form h4 {
+  color: #0a0a0a;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 138.753% */
+  margin-bottom: 69px;
+}
+
+.Contact .Form-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 21px;
+}
+
+.Contact label {
+  color: #0a0a0a;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Contact .Form-group .Input-wrapper {
+}
+
+.Contact .Form-group .Input-wrapper input {
+  border-radius: 7px;
+  background: #f3f3f5;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 9px 12px;
+  margin-top: 7px;
+  font-size: 12px;
+}
+
+.Contact .User {
+  flex: 1;
+}
+
+.Contact .Subject input {
+  border-radius: 7px;
+  background: #f3f3f5;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 9px 12px;
+  margin-top: 7px;
+  font-size: 12px;
+}
+
+.Contact .Message {
+  margin-top: 21px;
+}
+
+.Contact .Message textarea {
+  width: 100%;
+  height: 120px;
+  border-radius: 7px;
+  background: #f3f3f5;
+  outline: none;
+  border: none;
+  padding: 2%;
+  font-size: 12px;
+  margin: 7px 0 21px;
+}
+
+.Contact button {
+  display: flex;
+  padding: 9px 11px;
+  border: none;
+  border-radius: 7px;
+  background: #030213;
+  color: white;
+  gap: 14px;
+}
+
+.Contact button li {
+  font-size: 14px;
+}
+
+.Contact button p {
+  font-size: 12px;
 }

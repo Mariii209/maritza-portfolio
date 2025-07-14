@@ -10,42 +10,50 @@ export default function Contact() {
           I'm excited to connect with potential employers, fellow developers,
           and anyone interested in collaborating on projects.
         </p>
-        <div>
+        <div className="Contact-container">
           <div className="Contact-form">
             <h4>Send me a message</h4>
-            <div>
-              <div>
+            <div className="Form-group">
+              <div className="User">
                 <label htmlFor="">Name</label>
-                <input type="text" placeholder="Your Name" />
+                <div className="Input-wrapper">
+                  <input type="text" placeholder="Your Name" />
+                </div>
               </div>
-              <div>
+              <div className="User">
                 <label htmlFor="">Email</label>
-                <input type="text" placeholder="your.email@example.com" />
+                <div className="Input-wrapper">
+                  <input type="text" placeholder="your.email@example.com" />
+                </div>
               </div>
             </div>
-            <div>
+            <div className="Subject">
               <label htmlFor="">Subject</label>
-              <input
-                type="text"
-                name=""
-                id=""
-                placeholder="What's this about?"
-              />
+              <div className="Subject-input">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="What's this about?"
+                />
+              </div>
             </div>
-            <div>
+            <div className="Message">
               <label htmlFor="">Message</label>
-              <textarea
-                name=""
-                id=""
-                placeholder="Tell me about your project or opportunity..."
-              ></textarea>
+              <div>
+                <textarea
+                  name=""
+                  id=""
+                  placeholder="Tell me about your project or opportunity..."
+                ></textarea>
+              </div>
             </div>
             <button>
               <i class="fa-regular fa-paper-plane"></i>
               <p>Send Message</p>
             </button>
           </div>
-          <div>
+          <div className="Contact-information">
             <div>
               <h6>Contact Information</h6>
               <div>
