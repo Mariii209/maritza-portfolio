@@ -61,7 +61,7 @@
   margin: 13px 0 18px;
 }
 
-.Available-links {
+.Information .Available-links {
   display: flex;
   flex-direction: column;
   gap: 7px;

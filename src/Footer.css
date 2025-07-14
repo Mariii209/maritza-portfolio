@@ -1,0 +1,105 @@
+.Footer {
+  background: #0f172b;
+}
+
+.Footer .Footer-container {
+  padding: 7% 10%;
+}
+
+.Footer .Footer-Wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.Footer .Maritza h5 {
+  color: #fff;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.Footer .Maritza p {
+  width: 300px;
+  color: #90a1b9;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 17px 0 22px;
+}
+
+.Footer .Maritza .Links {
+  display: flex;
+  gap: 21px;
+}
+
+.Footer .Maritza .Links a {
+  font-size: 18px;
+  color: #fff;
+}
+
+.Footer .Footer-Wrapper h6 {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.Footer ul li,
+.Footer ul li a {
+  color: #90a1b9;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.Footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.Footer .Copy-right {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.Footer .Copy-right p {
+  color: #90a1b9;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Footer .Copy-right i {
+  color: red;
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .Footer .Footer-Wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .Footer .Copy-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

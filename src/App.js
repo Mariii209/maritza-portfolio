@@ -7,6 +7,7 @@ import Projects from "./Projects";
 import Education from "./Education";
 import Resume from "./Resume";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Education />
       <Resume />
       <Contact />
+      <Footer />
     </div>
   );
 }
