@@ -20,8 +20,8 @@ export default function Home() {
           <p>View My Projects</p>
         </a>
         <a
-          href="/"
-          download
+          href="/Maritza_Gutierrez_Resume.pdf"
+          download="Maritza_Gutierrez_Resume.pdf"
           className="Home-links__item"
           aria-label="Download Resume"
         >
@@ -39,7 +39,12 @@ export default function Home() {
         <a href="https://www.linkedin.com/in/maritza-gutierrez-165618343/">
           <i className="fa-brands fa-linkedin"></i>
         </a>
-        <a href="mailto:maritza.gutierrez115@gmail.com" title="Email me">
+        <a
+          href="mailto:maritza.gutierrez115@gmail.com"
+          title="Email me"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fa-regular fa-envelope"></i>
         </a>
       </div>
