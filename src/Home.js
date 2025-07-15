@@ -16,7 +16,7 @@ export default function Home() {
       </p>
 
       <div className="Home-links">
-        <a href="/" className="Home-links__item Item-dark">
+        <a href="#projects" className="Home-links__item Item-dark">
           <p>View My Projects</p>
         </a>
         <a
@@ -28,18 +28,18 @@ export default function Home() {
           <i className="fa-solid fa-download"></i>
           <p>Download Resume</p>
         </a>
-        <a href="/" className="Home-links__item">
+        <a href="#contact" className="Home-links__item">
           <p>Get In Touch</p>
         </a>
       </div>
       <div className="Home-socials">
-        <a href="/">
+        <a href="https://github.com/Mariii209">
           <i className="fa-brands fa-github"></i>
         </a>
-        <a href="/">
+        <a href="https://www.linkedin.com/in/maritza-gutierrez-165618343/">
           <i className="fa-brands fa-linkedin"></i>
         </a>
-        <a href="/">
+        <a href="mailto:maritza.gutierrez115@gmail.com" title="Email me">
           <i className="fa-regular fa-envelope"></i>
         </a>
       </div>
