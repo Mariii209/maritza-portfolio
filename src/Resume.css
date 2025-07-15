@@ -50,3 +50,9 @@
 .Resume .Information i {
   font-size: 14px;
 }
+
+@media (max-width: 640px) {
+  .Resume {
+    padding: 10% 5%;
+  }
+}

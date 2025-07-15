@@ -182,6 +182,10 @@
 }
 
 @media (max-width: 650px) {
+  .Education-container {
+    padding: 10% 5%;
+  }
+
   .Education .Stats {
     flex-direction: column;
     gap: 15px;

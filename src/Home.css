@@ -132,8 +132,11 @@
 }
 
 @media (max-width: 640px) {
+  .Home {
+    padding: 10% 5%;
+  }
   .Home h1 {
-    font-size: 50px;
+    font-size: 41px;
   }
 
   .Home h6 {
@@ -147,10 +150,15 @@
   .Home .Home-links {
     display: flex;
     flex-direction: column;
+    gap: 7px;
   }
 
   .Home .Home-links__item {
     width: 360px;
+  }
+
+  .Home .Home-socials {
+    margin: 34px 0 31px;
   }
 
   .Home .Home-socials a {

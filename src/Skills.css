@@ -87,3 +87,9 @@
     font-size: 11px;
   }
 }
+
+@media (max-width: 640px) {
+  .Skills {
+    padding: 10% 5%;
+  }
+}

@@ -141,4 +141,8 @@
   .Contact .Message textarea {
     font-size: 10px;
   }
+
+  .Contact .Contact-section {
+    padding: 10% 5%;
+  }
 }
