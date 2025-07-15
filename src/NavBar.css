@@ -1,0 +1,80 @@
+.NavBar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 7%;
+  width: 100%;
+  background: #f4f7fa;
+}
+
+.NavBar h3 {
+  color: #0f172b;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.NavBar ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.NavBar ul li a {
+  text-decoration: none;
+  color: #45556c;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.show {
+  display: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #45556c;
+  font-size: 12px;
+}
+
+.NavBar .Nav-Icon {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 769px) {
+  .NavBar ul {
+    display: none;
+  }
+
+  .NavBar .Nav-Icon {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #f4f7fa;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    padding: 10px 20px;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .menu.show {
+    display: flex;
+  }
+}

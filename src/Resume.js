@@ -3,7 +3,7 @@ import "./Resume.css";
 
 export default function Resume() {
   return (
-    <div className="Resume">
+    <div className="Resume" id="resume">
       <h1>Resume</h1>
       <p className="About-resume">
         Download my resume to learn more about my background, skills, and

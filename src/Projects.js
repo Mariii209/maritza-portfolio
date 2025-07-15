@@ -3,7 +3,7 @@ import "./Projects.css";
 
 export default function Projects() {
   return (
-    <div className="Projects">
+    <div className="Projects" id="projects">
       <h2>My Projects</h2>
       <p className="All-projects">
         Here are some projects I've built during my bootcamp and personal

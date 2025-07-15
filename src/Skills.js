@@ -4,7 +4,7 @@ import Tools from "./Tools";
 
 export default function Skills() {
   return (
-    <div className="Skills">
+    <div className="Skills" id="skills">
       <h2>Skills & Technologies</h2>
 
       <div className="Skill-tool-container">

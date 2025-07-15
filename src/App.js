@@ -1,4 +1,5 @@
 import "./App.css";
+import NavBar from "./NavBar";
 import Home from "./Home";
 import About from "./About";
 import WhatDrivesMe from "./WhatDrivesMe";
@@ -12,6 +13,7 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <Home />
       <About />
       <WhatDrivesMe />

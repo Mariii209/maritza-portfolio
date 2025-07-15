@@ -4,7 +4,7 @@ import Information from "./Information";
 
 export default function Contact() {
   return (
-    <div className="Contact">
+    <div className="Contact" id="contact">
       <div className="Contact-section">
         <h2>Get In Touch</h2>
         <p className="Contact-description">
