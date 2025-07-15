@@ -3,66 +3,83 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div className="Footer">
+    <footer className="Footer">
       <div className="Footer-container">
         <div className="Footer-Wrapper">
-          <div className="Maritza">
-            <h5>Maritza Gutierrez</h5>
+          <section className="Maritza">
+            <h2>Maritza Gutierrez</h2>
             <p>
               Junior front-end developer passionate about creating beautiful,
               functional web experiences.
             </p>
-            <div className="Links">
-              <a href="/">
+            <div className="Links" aria-label="Social links">
+              <a
+                href="https://github.com/Mariii209"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-github"></i>
               </a>
-              <a href="/">
+              <a
+                href="https://www.linkedin.com/in/maritza-gutierrez-165618343/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="/">
+              <a
+                href="mailto:maritza.gutierrez115@gmail.com"
+                title="Email me"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-solid fa-envelope"></i>
               </a>
             </div>
-          </div>
+          </section>
 
-          <div className="Quick-links">
-            <h6>Quick Links</h6>
+          <nav className="Quick-links" aria-labelledby="footer-quick-links">
+            <h3>Quick Links</h3>
             <ul>
               <li>
-                <a href="/">About</a>
+                <a href="#about-me">About</a>
               </li>
               <li>
-                <a href="/">Projects</a>
+                <a href="#projects">Projects</a>
               </li>
               <li>
-                <a href="/">Experience</a>
+                <a href="#experience">Experience</a>
               </li>
               <li>
-                <a href="/">Resume</a>
+                <a href="#resume">Resume</a>
               </li>
               <li>
-                <a href="/">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
-          </div>
+          </nav>
 
-          <div>
-            <h6>Skills</h6>
+          <section>
+            <h3>Skills</h3>
             <ul>
               <li>React</li>
               <li>JavaScript</li>
               <li>HTML/CSS</li>
               <li>Bootstrap</li>
             </ul>
-          </div>
+          </section>
 
-          <div>
-            <h6>Contact</h6>
+          <address>
+            <h3>Contact</h3>
             <ul>
-              <li>maritza.gutierrez30@yahoo.com</li>
+              <li>
+                <a href="mailto:maritza.gutierrez30@yahoo.com">
+                  maritza.gutierrez30@yahoo.com
+                </a>
+              </li>
               <li>Modesto, CA</li>
             </ul>
-          </div>
+          </address>
         </div>
 
         <hr />
@@ -74,6 +91,6 @@ export default function Footer() {
           </p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
