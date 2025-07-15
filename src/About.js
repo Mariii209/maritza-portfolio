@@ -3,10 +3,10 @@ import "./About.css";
 
 export default function About() {
   return (
-    <div className="About" id="about-me">
+    <section className="About" id="about-me">
       <h2>About Me</h2>
       <div className="About-container">
-        <div className="Description-container">
+        <article className="Description-container">
           <p>
             After exploring different career paths, I discovered my passion for
             web development and made the exciting decision to transition into
@@ -26,17 +26,16 @@ export default function About() {
             contributing to coding communities, or exploring the latest web
             development trends and technologies.
           </p>
-        </div>
-        <div className="Maritza-image-container ">
-          <div className="Image-container">
-            <img
-              src="/maritza.jpeg"
-              alt="Maritza Gutierrez"
-              className="Profile-img"
-            />
-          </div>
-        </div>
+        </article>
+        <figure className="Maritza-image-container ">
+          <img
+            src="/maritza.jpeg"
+            alt="front‑end developer Maritza Gutierrez"
+            className="Profile-img"
+            loading="lazy"
+          />
+        </figure>
       </div>
-    </div>
+    </section>
   );
 }
