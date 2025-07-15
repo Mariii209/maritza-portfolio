@@ -27,7 +27,7 @@
   margin-top: 45px;
 }
 
-.Skills .Skill-category h5 {
+.Skills .Skill-category h3 {
   color: #0f172b;
   font-size: 20px;
   font-style: normal;
@@ -41,7 +41,11 @@
   justify-content: space-between;
 }
 
-.Skills .Skill-info p {
+.Skills ul {
+  list-style: none;
+}
+
+.Skills .Skill-info span {
   color: #0f172b;
   font-size: 13px;
   font-style: normal;
@@ -60,14 +64,13 @@
   width: 100%;
   border-radius: 5px;
   overflow: hidden;
-
   margin-bottom: 21px;
 }
 
 .Skill-bar-fill {
   background-color: #030213;
   height: 100%;
-  width: 0; /* you can animate this */
+  width: 0;
   transition: width 0.5s ease-in-out;
 }
 
@@ -79,11 +82,11 @@
     margin-top: 42px;
   }
 
-  .Skills .Skill-category h5 {
+  .Skills .Skill-category h3 {
     font-size: 18px;
   }
 
-  .Skills .Skill-info p {
+  .Skills .Skill-info span {
     font-size: 11px;
   }
 }

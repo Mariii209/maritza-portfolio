@@ -4,111 +4,141 @@ import Tools from "./Tools";
 
 export default function Skills() {
   return (
-    <div className="Skills" id="skills">
+    <section className="Skills" id="skills">
       <h2>Skills & Technologies</h2>
 
       <div className="Skill-tool-container">
         <div className="First-section">
-          <div className="Skill-category">
-            <h5>Core Skills</h5>
+          <article className="Skill-category">
+            <h3>Core Skills</h3>
+            <ul>
+              <li className="Skill">
+                <div className="Skill-info">
+                  <span className="Skill-name">HTML/CSS</span>
+                  <span className="Skill-percentage">85%</span>
+                </div>
+                <div className="Skill-bar">
+                  <div
+                    className="Skill-bar-fill"
+                    style={{ width: "85%" }}
+                  ></div>
+                </div>
+              </li>
 
-            <div className="Skill">
-              <div className="Skill-info">
-                <p className="Skill-name">HTML/CSS</p>
-                <p className="Skill-percentage">85%</p>
-              </div>
-              <div className="Skill-bar">
-                <div className="Skill-bar-fill" style={{ width: "85%" }}></div>
-              </div>
-            </div>
+              <li className="Skill">
+                <div className="Skill-info">
+                  <span className="Skill-name">JavaScript</span>
+                  <span className="Skill-percentage">87%</span>
+                </div>
+                <div className="Skill-bar">
+                  <div
+                    className="Skill-bar-fill"
+                    style={{ width: "75%" }}
+                  ></div>
+                </div>
+              </li>
 
-            <div className="Skill">
-              <div className="Skill-info">
-                <p className="Skill-name">JavaScript</p>
-                <p className="Skill-percentage">87%</p>
-              </div>
-              <div className="Skill-bar">
-                <div className="Skill-bar-fill" style={{ width: "75%" }}></div>
-              </div>
-            </div>
+              <li className="Skill">
+                <div className="Skill-info">
+                  <span className="Skill-name">React</span>
+                  <span className="Skill-percentage">70%</span>
+                </div>
+                <div className="Skill-bar">
+                  <div
+                    className="Skill-bar-fill"
+                    style={{ width: "70%" }}
+                  ></div>
+                </div>
+              </li>
 
-            <div className="Skill">
-              <div className="Skill-info">
-                <p className="Skill-name">React</p>
-                <p className="Skill-percentage">70%</p>
-              </div>
-              <div className="Skill-bar">
-                <div className="Skill-bar-fill" style={{ width: "70%" }}></div>
-              </div>
-            </div>
+              <li className="Skill">
+                <div className="Skill-info">
+                  <span className="Skill-name">Bootstrap</span>
+                  <span className="Skill-percentage">80%</span>
+                </div>
+                <div className="Skill-bar">
+                  <div
+                    className="Skill-bar-fill"
+                    style={{ width: "80%" }}
+                  ></div>
+                </div>
+              </li>
 
-            <div className="Skill">
-              <div className="Skill-info">
-                <p className="Skill-name">Bootstrap</p>
-                <p className="Skill-percentage">80%</p>
-              </div>
-              <div className="Skill-bar">
-                <div className="Skill-bar-fill" style={{ width: "80%" }}></div>
-              </div>
-            </div>
+              <li className="Skill">
+                <div className="Skill-info">
+                  <span className="Skill-name">Tailwind CSS</span>
+                  <span className="Skill-percentage">60%</span>
+                </div>
+                <div className="Skill-bar">
+                  <div
+                    className="Skill-bar-fill"
+                    style={{ width: "60%" }}
+                  ></div>
+                </div>
+              </li>
 
-            <div className="Skill">
-              <div className="Skill-info">
-                <p className="Skill-name">Tailwind CSS</p>
-                <p className="Skill-percentage">60%</p>
-              </div>
-              <div className="Skill-bar">
-                <div className="Skill-bar-fill" style={{ width: "60%" }}></div>
-              </div>
-            </div>
+              <li className="Skill">
+                <div className="Skill-info">
+                  <span className="Skill-name">Responsive Design</span>
+                  <span className="Skill-percentage">80%</span>
+                </div>
+                <div className="Skill-bar">
+                  <div
+                    className="Skill-bar-fill"
+                    style={{ width: "80%" }}
+                  ></div>
+                </div>
+              </li>
 
-            <div className="Skill">
-              <div className="Skill-info">
-                <p className="Skill-name">Responsive Design</p>
-                <p className="Skill-percentage">80%</p>
-              </div>
-              <div className="Skill-bar">
-                <div className="Skill-bar-fill" style={{ width: "80%" }}></div>
-              </div>
-            </div>
+              <li className="Skill">
+                <div className="Skill-info">
+                  <span className="Skill-name">Git/GitHub</span>
+                  <span className="Skill-percentage">70%</span>
+                </div>
+                <div className="Skill-bar">
+                  <div
+                    className="Skill-bar-fill"
+                    style={{ width: "70%" }}
+                  ></div>
+                </div>
+              </li>
+            </ul>
+          </article>
 
-            <div className="Skill">
-              <div className="Skill-info">
-                <p className="Skill-name">Git/GitHub</p>
-                <p className="Skill-percentage">70%</p>
-              </div>
-              <div className="Skill-bar">
-                <div className="Skill-bar-fill" style={{ width: "70%" }}></div>
-              </div>
-            </div>
-          </div>
-          <div className="Skill-category">
-            <h5>Currently Learning</h5>
+          <article className="Skill-category">
+            <h3>Currently Learning</h3>
+            <ul>
+              <li className="Skill">
+                <div className="Skill-info">
+                  <span className="Skill-name">TypeScript</span>
+                  <span className="Skill-percentage">35%</span>
+                </div>
+                <div className="Skill-bar">
+                  <div
+                    className="Skill-bar-fill"
+                    style={{ width: "35%" }}
+                  ></div>
+                </div>
+              </li>
 
-            <div className="Skill">
-              <div className="Skill-info">
-                <p className="Skill-name">TypeScript</p>
-                <p className="Skill-percentage">35%</p>
-              </div>
-              <div className="Skill-bar">
-                <div className="Skill-bar-fill" style={{ width: "35%" }}></div>
-              </div>
-            </div>
-
-            <div className="Skill">
-              <div className="Skill-info">
-                <p className="Skill-name">Next.js</p>
-                <p className="Skill-percentage">30%</p>
-              </div>
-              <div className="Skill-bar">
-                <div className="Skill-bar-fill" style={{ width: "30%" }}></div>
-              </div>
-            </div>
-          </div>
+              <li className="Skill">
+                <div className="Skill-info">
+                  <span className="Skill-name">Next.js</span>
+                  <span className="Skill-percentage">30%</span>
+                </div>
+                <div className="Skill-bar">
+                  <div
+                    className="Skill-bar-fill"
+                    style={{ width: "30%" }}
+                  ></div>
+                </div>
+              </li>
+            </ul>
+          </article>
         </div>
 
         <Tools />
       </div>
-    </div>
+    </section>
   );
 }

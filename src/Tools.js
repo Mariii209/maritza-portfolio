@@ -3,75 +3,75 @@ import "./Tools.css";
 
 export default function Tools() {
   return (
-    <div className="Tools">
-      <h5>Technologies & Tools</h5>
-      <div className="Tools-category">
-        <div className="Tool">
-          <p>HTML5</p>
-        </div>
+    <section className="Tools" aria-labelledby="tools-heading">
+      <h2>Technologies & Tools</h2>
+      <ul className="Tools-category">
+        <li className="Tool">
+          <span>HTML5</span>
+        </li>
 
-        <div className="Tool">
-          <p>JavaScript (ES6)</p>
-        </div>
+        <li className="Tool">
+          <span>JavaScript (ES6)</span>
+        </li>
 
-        <div className="Tool">
-          <p>Tailwind CSS</p>
-        </div>
+        <li className="Tool">
+          <span>Tailwind CSS</span>
+        </li>
 
-        <div className="Tool">
-          <p>Git & GitHub</p>
-        </div>
+        <li className="Tool">
+          <span>Git & GitHub</span>
+        </li>
 
-        <div className="Tool">
-          <p>Figma</p>
-        </div>
+        <li className="Tool">
+          <span>Figma</span>
+        </li>
 
-        <div className="Tool">
-          <p>Netlify (Hosting)</p>
-        </div>
+        <li className="Tool">
+          <span>Netlify (Hosting)</span>
+        </li>
 
-        <div className="Tool">
-          <p>ChatGPT AI</p>
-        </div>
+        <li className="Tool">
+          <span>ChatGPT AI</span>
+        </li>
 
-        <div className="Tool">
-          <p>Responsive Design</p>
-        </div>
+        <li className="Tool">
+          <span>Responsive Design</span>
+        </li>
 
-        <div className="Tool">
-          <p>CSS3</p>
-        </div>
+        <li className="Tool">
+          <span>CSS3</span>
+        </li>
 
-        <div className="Tool">
-          <p>React</p>
-        </div>
+        <li className="Tool">
+          <span>React</span>
+        </li>
 
-        <div className="Tool">
-          <p>Bootstrap</p>
-        </div>
+        <li className="Tool">
+          <span>Bootstrap</span>
+        </li>
 
-        <div className="Tool">
-          <p>VS Code</p>
-        </div>
+        <li className="Tool">
+          <span>VS Code</span>
+        </li>
 
-        <div className="Tool">
-          <p>Chrome DevTools</p>
-        </div>
+        <li className="Tool">
+          <span>Chrome DevTools</span>
+        </li>
 
-        <div className="Tool">
-          <p>APIs (RESTful APIs)</p>
-        </div>
+        <li className="Tool">
+          <span>APIs (RESTful APIs)</span>
+        </li>
 
-        <div className="Tool">
-          <p>SEO Basics</p>
-        </div>
+        <li className="Tool">
+          <span>SEO Basics</span>
+        </li>
 
-        <div className="Tool">
-          <p>NPM</p>
-        </div>
-      </div>
+        <li className="Tool">
+          <span>NPM</span>
+        </li>
+      </ul>
       <div className="Goals">
-        <h6>Learning Goals</h6>
+        <h3>Learning Goals</h3>
         <ul>
           <li>• Master TypeScript for better code quality</li>
           <li>• Build full-stack applications with Node.js</li>
@@ -80,6 +80,6 @@ export default function Tools() {
           <li>• Deepen knowledge of state management</li>
         </ul>
       </div>
-    </div>
+    </section>
   );
 }
