@@ -17,25 +17,39 @@ export default function NavBar() {
       </div>
       <ul className={showMenu ? "menu show" : "menu"}>
         <li>
-          <a href="#home">Home</a>
+          <a href="#home" onClick={() => setShowMenu(false)}>
+            Home
+          </a>
         </li>
         <li>
-          <a href="#about-me">About Me</a>
+          <a href="#about-me" onClick={() => setShowMenu(false)}>
+            About Me
+          </a>
         </li>
         <li>
-          <a href="#skills">Skills</a>
+          <a href="#skills" onClick={() => setShowMenu(false)}>
+            Skills
+          </a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects" onClick={() => setShowMenu(false)}>
+            Projects
+          </a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#experience" onClick={() => setShowMenu(false)}>
+            Experience
+          </a>
         </li>
         <li>
-          <a href="#resume">Resume</a>
+          <a href="#resume" onClick={() => setShowMenu(false)}>
+            Resume
+          </a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact" onClick={() => setShowMenu(false)}>
+            Contact
+          </a>
         </li>
       </ul>
     </div>
