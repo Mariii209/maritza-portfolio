@@ -3,16 +3,18 @@ import "./Information.css";
 
 export default function Information() {
   return (
-    <div className="Information">
+    <section className="Information">
       <div className="Contact-info">
         <h6>Contact Information</h6>
-        <div className="Email">
+
+        <a href="" className="Email">
           <i className="fa-solid fa-envelope"></i>
           <p>maritza.gutierrez115@gmail.com</p>
-        </div>
+        </a>
+
         <div className="Location">
           <i className="fa-solid fa-location-dot"></i>
-          <p>Modesto, CA</p>
+          <p>California</p>
         </div>
       </div>
       <div className="Available">
@@ -21,15 +23,16 @@ export default function Information() {
           I'm currently seeking junior front-end developer positions and would
           love to hear about yours.
         </p>
-        <div className="Available-links">
-          <a href="/" className="Schedule">
-            Schedule a Call
-          </a>
-          <a href="/" className="Download-resume">
-            <i className="fa-solid fa-download"></i>
-            Download Resume
-          </a>
-        </div>
+
+        <a
+          className="Download-resume"
+          href="/Maritza_Gutierrez_Resume.pdf"
+          download="Maritza_Gutierrez_Resume.pdf"
+          aria-label="Download Resume"
+        >
+          <i className="fa-solid fa-download"></i>
+          Download Resume
+        </a>
       </div>
 
       <div className="Response-time">
@@ -39,6 +42,6 @@ export default function Information() {
           hearing from you!
         </p>
       </div>
-    </div>
+    </section>
   );
 }

@@ -1,30 +1,47 @@
 import React from "react";
 import "./Contact.css";
+import Swal from "sweetalert2";
 import Information from "./Information";
 
 export default function Contact() {
   const onSubmit = async (event) => {
     event.preventDefault();
-
     const formData = new FormData(event.target);
 
     formData.append("access_key", "e32146bc-af1d-40dd-9267-c98c6f84b02b");
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    });
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
 
-    const data = await response.json();
+      const data = await response.json();
 
-    if (data.success) {
-      event.target.reset();
-    } else {
-      console.log("Error", data);
+      if (data.success) {
+        event.target.reset(); // Clear the form
+
+        Swal.fire({
+          title: "Message Sent!",
+          text: "Thanks for reaching out. I'll get back to you soon!",
+          icon: "success",
+          confirmButtonColor: "#0F172B",
+        });
+      } else {
+        throw new Error("Submission failed");
+      }
+    } catch (error) {
+      Swal.fire({
+        title: "Oops!",
+        text: "Something went wrong. Please try again later.",
+        icon: "error",
+        confirmButtonColor: "#e89064",
+      });
     }
   };
+
   return (
-    <div className="Contact" id="contact">
+    <section className="Contact" id="contact">
       <div className="Contact-section">
         <h2>Get In Touch</h2>
         <p className="Contact-description">
@@ -90,6 +107,6 @@ export default function Contact() {
           <Information />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
