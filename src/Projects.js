@@ -28,11 +28,21 @@ export default function Projects() {
               <li>React</li>
             </ul>
             <div className="Project-links">
-              <a href="/" className="Project-link">
+              <a
+                href="https://github.com/Mariii209/react-weather"
+                className="Project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-github"></i>
                 <p>Code</p>
               </a>
-              <a href="/" className="Project-link Dark">
+              <a
+                href="https://weather-app-mariii.netlify.app/"
+                className="Project-link Dark"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-solid fa-arrow-up-right-from-square Light"></i>
                 <p className="Light">Live Demo</p>
               </a>
@@ -41,27 +51,39 @@ export default function Projects() {
         </div>
 
         <div className="Project-container">
-          <img src="./WeatherApp.jpeg" alt="Weather App" />
+          <img src="./Dictionary.jpeg" alt="Weather App" />
           <div className="Project-info">
-            <h5>Weather App</h5>
+            <h5>Dictionary App</h5>
             <p className="Project-description">
-              A clean, responsive weather application that displays current
-              conditions and forecasts. One of my first projects working with
-              external APIs and modern CSS techniques.
+              A sleek and user-friendly dictionary app that delivers
+              definitions, examples, and images using multiple APIs. Built with
+              React, Bootstrap, and modern CSS techniques.
             </p>
             <ul>
               <li>HTML5</li>
               <li>CSS3</li>
               <li>JavaScript</li>
-              <li>Weather API</li>
+              <li>Bootstrap</li>
+              <li>Image API</li>
+              <li>Dictionary API</li>
               <li>React</li>
             </ul>
             <div className="Project-links">
-              <a href="/" className="Project-link">
+              <a
+                href="https://github.com/Mariii209/dictionary-project-react"
+                className="Project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-github"></i>
                 <p>Code</p>
               </a>
-              <a href="/" className="Project-link Dark">
+              <a
+                href="https://dictionary-mariii.netlify.app/"
+                className="Project-link Dark"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-solid fa-arrow-up-right-from-square Light"></i>
                 <p className="Light">Live Demo</p>
               </a>
