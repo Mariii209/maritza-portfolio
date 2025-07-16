@@ -3,13 +3,12 @@ import "./Education.css";
 
 export default function Education() {
   return (
-    <div className="Education" id="experience">
+    <section className="Education" id="experience">
       <div className="Education-container">
         <h2>Education & Learning Journey</h2>
         <p className="My-path">
-          My path into front-end development, including formal training,
-          self-directed learning, and transferable skills from my previous
-          experience.
+          My path into front-end development, including formal training, and
+          self-directed learning.
         </p>
         <div className="Education-learning-journey">
           <section>
@@ -19,7 +18,7 @@ export default function Education() {
               </div>
             </div>
             <div className="Journey-container">
-              <h5>Front-End Development Bootcamp</h5>
+              <h3>Front-End Development Bootcamp</h3>
               <p className="Title">SheCodes Front-End Program</p>
               <p className="Description">
                 Intensive 8-month program covering modern front-end development
@@ -37,7 +36,7 @@ export default function Education() {
                 </div>
               </div>
               <div className="Skills-learned">
-                <h6>Technical Skills Learned:</h6>
+                <h4>Technical Skills Learned:</h4>
                 <ul>
                   <li>HTML5 & CSS3</li>
                   <li>JavaScript (ES6+)</li>
@@ -63,7 +62,7 @@ export default function Education() {
               </div>
             </div>
             <div className="Journey-container">
-              <h5>Self-Directed Learning</h5>
+              <h3>Self-Directed Learning</h3>
               <p className="Title">Online Platforms & Resources</p>
               <p className="Description">
                 I’ve been expanding my front-end development skills outside of
@@ -74,7 +73,7 @@ export default function Education() {
                 work.
               </p>
               <div className="Skills-learned">
-                <h6>Technical Skills Learned:</h6>
+                <h4>Technical Skills Learned:</h4>
                 <ul>
                   <li>TypeScript</li>
                   <li>Tailwind CSS</li>
@@ -84,7 +83,7 @@ export default function Education() {
                 </ul>
               </div>
               <div className="Learning">
-                <h6>Learning Resources:</h6>
+                <h4>Learning Resources:</h4>
                 <ul>
                   <li> YouTube tutorials</li>
                   <li>• freeCodeCamp</li>
@@ -97,6 +96,6 @@ export default function Education() {
           </section>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
