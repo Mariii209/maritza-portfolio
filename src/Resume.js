@@ -3,8 +3,8 @@ import "./Resume.css";
 
 export default function Resume() {
   return (
-    <div className="Resume" id="resume">
-      <h1>Resume</h1>
+    <section className="Resume" id="resume">
+      <h2>Resume</h2>
       <p className="About-resume">
         Download my resume to learn more about my background, skills, and
         enthusiasm for front-end development.
@@ -20,6 +20,6 @@ export default function Resume() {
         </a>
       </div>
       <div></div>
-    </div>
+    </section>
   );
 }

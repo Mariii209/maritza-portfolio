@@ -2,7 +2,7 @@
   padding: 8% 5%;
 }
 
-.Resume h1 {
+.Resume h2 {
   color: #0f172b;
   text-align: center;
   font-size: 31px;
@@ -23,8 +23,8 @@
 
 .Resume .Information {
   display: flex;
-  justify-content: center;
   gap: 14px;
+  align-items: center;
 }
 
 .Resume .Dark {
@@ -34,9 +34,12 @@
 .Resume .Information a {
   text-decoration: none;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 13px;
   color: #0a0a0a;
-  align-items: center;
+  max-width: 350px;
+  width: 100%;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
