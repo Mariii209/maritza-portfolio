@@ -10,7 +10,6 @@ export default function Information() {
         <a
           href="mailto:maritza.gutierrez115@gmail.com"
           title="Email me"
-          target="_blank"
           rel="noopener noreferrer"
           className="Email"
         >
@@ -34,6 +33,7 @@ export default function Information() {
           className="Download-resume"
           href="/Maritza_Gutierrez_Resume.pdf"
           download="Maritza_Gutierrez_Resume.pdf"
+          rel="noopener noreferrer"
           aria-label="Download Resume"
         >
           <i className="fa-solid fa-download"></i>
@@ -44,8 +44,8 @@ export default function Information() {
       <div className="Response-time">
         <h6>Response Time</h6>
         <p>
-          I typically respond to messages within 24 hours. Looking forward to
-          hearing from you!
+          I typically reply within 24 hours — looking forward to connecting with
+          you!
         </p>
       </div>
     </section>

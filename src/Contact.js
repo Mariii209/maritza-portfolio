@@ -45,8 +45,8 @@ export default function Contact() {
       <div className="Contact-section">
         <h2>Get In Touch</h2>
         <p className="Contact-description">
-          I'm excited to connect with potential employers, fellow developers,
-          and anyone interested in collaborating on projects.
+          I’m excited to connect with potential employers, fellow developers,
+          and collaborators. Let’s build something together!
         </p>
         <div className="Contact-container">
           <form className="Contact-form" onSubmit={onSubmit}>
