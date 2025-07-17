@@ -7,7 +7,13 @@ export default function Information() {
       <div className="Contact-info">
         <h6>Contact Information</h6>
 
-        <a href="/" className="Email">
+        <a
+          href="mailto:maritza.gutierrez115@gmail.com"
+          title="Email me"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="Email"
+        >
           <i className="fa-solid fa-envelope"></i>
           <p>maritza.gutierrez115@gmail.com</p>
         </a>

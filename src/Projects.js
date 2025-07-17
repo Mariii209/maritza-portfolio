@@ -51,7 +51,7 @@ export default function Projects() {
         </div>
 
         <div className="Project-container">
-          <img src="./Dictionary.jpeg" alt="Weather App" />
+          <img src="./Dictionary.jpeg" alt="Dictionary App" />
           <div className="Project-info">
             <h5>Dictionary App</h5>
             <p className="Project-description">
@@ -92,27 +92,39 @@ export default function Projects() {
         </div>
 
         <div className="Project-container">
-          <img src="./WeatherApp.jpeg" alt="Weather App" />
+          <img src="./CyberStore.jpeg" alt="Cyber Store (In Progress)" />
           <div className="Project-info">
-            <h5>Weather App</h5>
+            <h5>Cyber Store (In Progress)</h5>
             <p className="Project-description">
-              A clean, responsive weather application that displays current
-              conditions and forecasts. One of my first projects working with
-              external APIs and modern CSS techniques.
+              This project is still a work in progress and not finished yet. I’m
+              building a responsive e-commerce website based on a Figma design.
+              I’m practicing React, component structuring, responsive layouts —
+              and I’m also working on adding product data, search, filtering,
+              and shopping cart features.
             </p>
             <ul>
               <li>HTML5</li>
               <li>CSS3</li>
               <li>JavaScript</li>
-              <li>Weather API</li>
-              <li>React</li>
+              <li>React & React Router</li>
+              <li>Figma</li>
             </ul>
             <div className="Project-links">
-              <a href="/" className="Project-link">
+              <a
+                href="https://github.com/Mariii209/cyber-store"
+                className="Project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-github"></i>
                 <p>Code</p>
               </a>
-              <a href="/" className="Project-link Dark">
+              <a
+                href="https://cyber-store-project.netlify.app/"
+                className="Project-link Dark"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-solid fa-arrow-up-right-from-square Light"></i>
                 <p className="Light">Live Demo</p>
               </a>
@@ -121,27 +133,38 @@ export default function Projects() {
         </div>
 
         <div className="Project-container">
-          <img src="./WeatherApp.jpeg" alt="Weather App" />
+          <img src="./AI-ChatBox.jpeg" alt="AI ChatBox" />
           <div className="Project-info">
-            <h5>Weather App</h5>
+            <h5>AI ChatBox</h5>
             <p className="Project-description">
-              A clean, responsive weather application that displays current
-              conditions and forecasts. One of my first projects working with
-              external APIs and modern CSS techniques.
+              A dynamic AI-powered chatbot application that leverages an
+              external API to deliver intelligent responses. This project helped
+              me practice working with API integration, JavaScript logic, and
+              responsive design.
             </p>
             <ul>
               <li>HTML5</li>
               <li>CSS3</li>
               <li>JavaScript</li>
-              <li>Weather API</li>
+              <li>External API</li>
               <li>React</li>
             </ul>
             <div className="Project-links">
-              <a href="/" className="Project-link">
+              <a
+                href="https://github.com/Mariii209/ai-project"
+                className="Project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-github"></i>
                 <p>Code</p>
               </a>
-              <a href="/" className="Project-link Dark">
+              <a
+                href="https://mariii-ai-generator-project.netlify.app/"
+                className="Project-link Dark"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-solid fa-arrow-up-right-from-square Light"></i>
                 <p className="Light">Live Demo</p>
               </a>
@@ -153,7 +176,12 @@ export default function Projects() {
         More projects coming soon! I'm constantly working on new ideas and
         expanding my portfolio.
       </p>
-      <a href="/" className="More-project">
+      <a
+        href="https://github.com/Mariii209?tab=repositories"
+        className="More-project"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <i className="fa-brands fa-github"></i>
         <p>View All on GitHub</p>
       </a>
