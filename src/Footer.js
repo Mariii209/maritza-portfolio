@@ -30,7 +30,6 @@ export default function Footer() {
               <a
                 href="mailto:maritza.gutierrez115@gmail.com"
                 title="Email me"
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="fa-solid fa-envelope"></i>
@@ -42,19 +41,29 @@ export default function Footer() {
             <h3>Quick Links</h3>
             <ul>
               <li>
-                <a href="#about-me">About</a>
+                <a href="#about-me" rel="noopener noreferrer">
+                  About
+                </a>
               </li>
               <li>
-                <a href="#projects">Projects</a>
+                <a href="#projects" rel="noopener noreferrer">
+                  Projects
+                </a>
               </li>
               <li>
-                <a href="#experience">Experience</a>
+                <a href="#experience" rel="noopener noreferrer">
+                  Experience
+                </a>
               </li>
               <li>
-                <a href="#resume">Resume</a>
+                <a href="#resume" rel="noopener noreferrer">
+                  Resume
+                </a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact" rel="noopener noreferrer">
+                  Contact
+                </a>
               </li>
             </ul>
           </nav>
@@ -73,11 +82,14 @@ export default function Footer() {
             <h3>Contact</h3>
             <ul>
               <li>
-                <a href="mailto:maritza.gutierrez30@yahoo.com">
+                <a
+                  href="mailto:maritza.gutierrez30@yahoo.com"
+                  rel="noopener noreferrer"
+                >
                   maritza.gutierrez30@yahoo.com
                 </a>
               </li>
-              <li>Modesto, CA</li>
+              <li>California</li>
             </ul>
           </address>
         </div>
