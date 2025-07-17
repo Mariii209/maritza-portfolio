@@ -10,13 +10,17 @@ export default function Home() {
       </header>
 
       <p className="Home-description">
-        Recent bootcamp graduate with a passion for creating beautiful,
-        responsive web applications. Ready to contribute to meaningful projects
-        and grow as a developer in a collaborative team environment.
+        Bootcamp graduate with a passion for creating beautiful, responsive web
+        applications. Eager to contribute to meaningful projects and grow as a
+        developer in a collaborative team environment.
       </p>
 
       <div className="Home-links">
-        <a href="#projects" className="Home-links__item Item-dark">
+        <a
+          href="#projects"
+          className="Home-links__item Item-dark"
+          rel="noopener noreferrer"
+        >
           <p>View My Projects</p>
         </a>
         <a
@@ -24,25 +28,37 @@ export default function Home() {
           download="Maritza_Gutierrez_Resume.pdf"
           className="Home-links__item"
           aria-label="Download Resume"
+          rel="noopener noreferrer"
         >
           <i className="fa-solid fa-download"></i>
           <p>Download Resume</p>
         </a>
-        <a href="#contact" className="Home-links__item">
+        <a
+          href="#contact"
+          className="Home-links__item"
+          rel="noopener noreferrer"
+        >
           <p>Get In Touch</p>
         </a>
       </div>
       <div className="Home-socials">
-        <a href="https://github.com/Mariii209">
+        <a
+          href="https://github.com/Mariii209"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fa-brands fa-github"></i>
         </a>
-        <a href="https://www.linkedin.com/in/maritza-gutierrez-165618343/">
+        <a
+          href="https://www.linkedin.com/in/maritza-gutierrez-165618343/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fa-brands fa-linkedin"></i>
         </a>
         <a
           href="mailto:maritza.gutierrez115@gmail.com"
           title="Email me"
-          target="_blank"
           rel="noopener noreferrer"
         >
           <i className="fa-regular fa-envelope"></i>
