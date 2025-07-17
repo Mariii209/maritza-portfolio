@@ -31,6 +31,8 @@
 .Projects .Project-container {
   border-radius: 13px;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
 }
 
 .Projects img {
@@ -42,6 +44,9 @@
 
 .Projects .Project-info {
   padding: 5%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .Projects h5 {
@@ -113,6 +118,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
+}
+
+.Bottom {
+  margin-top: auto;
 }
 
 .Projects .Project-links .Project-link i {
