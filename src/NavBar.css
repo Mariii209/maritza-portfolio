@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   justify-content: space-between;
-  padding: 2% 7%;
+  padding: 20px 7%;
   width: 100%;
   z-index: 1000;
   background: #f4f7fa;
@@ -56,12 +56,17 @@
 }
 
 @media (max-width: 769px) {
+  .NavBar {
+    padding: 15px 7%;
+  }
+
   .NavBar ul {
     display: none;
   }
 
   .NavBar .Nav-Icon {
     display: block;
+    font-size: 20px;
   }
 
   .menu {
