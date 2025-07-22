@@ -62,7 +62,7 @@
 
 @media (max-width: 640px) {
   .About {
-    padding: 10% 5%;
+    padding: 15% 5% 2%;
   }
 
   .About .Description-container {
