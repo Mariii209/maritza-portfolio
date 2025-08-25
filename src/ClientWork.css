@@ -1,3 +1,8 @@
+.ClientWork {
+  background-color: #f4f6f8;
+  padding: 5%;
+}
+
 .ClientWork h2 {
   color: #0f172b;
   text-align: center;
@@ -5,7 +10,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 35px;
-  margin-bottom: 17px;
 }
 
 .ClientWork .WorkDescription {
@@ -15,13 +19,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
+  margin: 17px 0 47px;
 }
 
 .ClientWork .WorkContainer {
   display: flex;
   gap: 30px;
   justify-content: center;
-  padding: 5%;
 }
 
 .ClientWork .ClientCard {
@@ -89,8 +93,8 @@
 
 .ClientWork .ClientCard .FullDetail {
   padding: 28px;
-  flex: auto;
   display: flex;
+  flex: auto;
   gap: 15px;
   flex-direction: column;
 }

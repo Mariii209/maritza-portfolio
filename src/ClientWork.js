@@ -110,7 +110,7 @@ export default function ClientWork() {
         <div className="ClientCard">
           <div className="Heading">
             <div className="HeadingContianer">
-              <i class="fa-solid fa-person-digging"></i>
+              <i class="fa-solid fa-temperature-high"></i>
               <div>
                 <h3>Cool Work HVAC Expert</h3>
                 <p>HVAC Services</p>
