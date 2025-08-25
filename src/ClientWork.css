@@ -1,0 +1,246 @@
+.ClientWork h2 {
+  color: #0f172b;
+  text-align: center;
+  font-size: 29.9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 17px;
+}
+
+.ClientWork .WorkDescription {
+  color: #45556c;
+  text-align: center;
+  font-size: 12.906px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.ClientWork .WorkContainer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 5%;
+}
+
+.ClientWork .ClientCard {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 12.75px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.ClientWork .ClientCard .Heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.ClientWork .ClientCard .Heading .HeadingContianer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.ClientWork .ClientCard .Heading .HeadingContianer i {
+  font: 21px;
+  border-radius: 8.75px;
+  background: #fff;
+  padding: 11px;
+  color: #0a0a0a;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+.ClientWork .ClientCard .Heading .HeadingContianer h3 {
+  color: #0a0a0a;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.5px;
+}
+
+.ClientWork .ClientCard .Heading .HeadingContianer p {
+  color: #45556c;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px;
+}
+
+.ClientWork .ClientCard .Heading span {
+  color: #016630;
+  text-align: center;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  border-radius: 6.75px;
+  background: #dcfce7;
+  padding: 4px 8px;
+  height: 22px;
+}
+
+.ClientWork .ClientCard .FullDetail {
+  padding: 28px;
+  flex: auto;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.ClientWork .ClientCard .FullDetail .WorkCardDescription {
+  color: #314158;
+  font-size: 15.016px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.Features {
+  margin-top: auto;
+}
+
+.ClientWork .ClientCard .FullDetail h4 {
+  color: #0a0a0a;
+  font-size: 15.059px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.5px;
+  margin: 25px 0 11px;
+}
+
+.ClientWork .ClientCard .FullDetail ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 7px;
+}
+
+.ClientWork .ClientCard .FullDetail ul li {
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 4px 8px;
+  color: #0a0a0a;
+  text-align: center;
+  font-size: 10.008px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.ClientWork .ClientCard .FullDetail .Technologies {
+  margin-top: auto;
+}
+
+.ClientWork .ClientCard .FullDetail .TechnologiesUsed li {
+  color: #193cb8;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10.008px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  border-radius: 6.75px;
+  background: #dbeafe;
+}
+
+.ClientWork .ClientCard .ClientInfo {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8.75px;
+  background: #f8fafc;
+  padding: 16px 14px;
+  margin-top: auto;
+}
+
+.ClientWork .ClientCard .ClientInfo .TimeLine,
+.Client {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.ClientWork .ClientCard .ClientInfo i {
+  color: #62748e;
+  font-size: 14px;
+}
+
+.ClientWork .ClientCard .ClientInfo p {
+  color: #0a0a0a;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px;
+}
+
+.ClientWork .ClientCard .MoreInfo {
+  margin-top: auto;
+}
+
+.ClientWork .ClientCard .MoreInfo .Challenge {
+  margin-top: auto;
+}
+
+.ClientWork .ClientCard .MoreInfo h5 {
+  color: #314158;
+  font-size: 11.723px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px;
+  margin-bottom: 9px;
+}
+
+.ClientWork .ClientCard .MoreInfo p {
+  color: #45556c;
+  font-size: 11.339px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px;
+  margin-bottom: 18px;
+}
+
+.ClientWork .ClientCard .Line {
+  border-top: 1px solid #e2e8f0;
+  margin: 24px 0 15px;
+}
+.LinkContainer {
+  margin-top: auto;
+}
+
+.ClientWork .ClientCard .Links {
+  display: flex;
+  gap: 15px;
+}
+
+.ClientWork .ClientCard .Links a {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  border-radius: 6.75px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 7px 10px;
+  color: #0a0a0a;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px;
+  text-decoration: none;
+}
+
+@media (max-width: 895px) {
+  .ClientWork .WorkContainer {
+    flex-direction: column;
+  }
+  .ClientWork .ClientCard {
+    max-width: 100%;
+  }
+}

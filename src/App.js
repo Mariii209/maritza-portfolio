@@ -5,6 +5,7 @@ import About from "./About";
 import WhatDrivesMe from "./WhatDrivesMe";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import ClientWork from "./ClientWork";
 import Education from "./Education";
 import Resume from "./Resume";
 import Contact from "./Contact";
@@ -19,6 +20,7 @@ function App() {
       <WhatDrivesMe />
       <Skills />
       <Projects />
+      <ClientWork />
       <Education />
       <Resume />
       <Contact />
