@@ -1,6 +1,6 @@
 .ClientWork {
   background-color: #f4f6f8;
-  padding: 5%;
+  padding: 8% 5%;
 }
 
 .ClientWork h2 {
@@ -246,5 +246,11 @@
   }
   .ClientWork .ClientCard {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .ClientWork {
+    padding: 15% 5%;
   }
 }

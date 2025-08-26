@@ -3,7 +3,7 @@ import "./ClientWork.css";
 
 export default function ClientWork() {
   return (
-    <div className="ClientWork">
+    <div className="ClientWork" id="clients">
       <h2>Client Work</h2>
       <p className="WorkDescription">
         Real-world projects delivered for local businesses, demonstrating

@@ -8,24 +8,26 @@ export default function About() {
       <div className="About-container">
         <article className="Description-container">
           <p>
-            After exploring different career paths, I discovered my passion for
-            web development and made the exciting decision to transition into
-            tech. I recently completed an intensive front-end development
-            bootcamp, where I learned modern web technologies and best
-            practices.
+            After exploring different career paths, I found my passion in web
+            development and made the transition into tech. I completed an
+            intensive front-end development bootcamp and have since continued
+            building real-world projects, strengthening my skills in modern web
+            technologies and best practices.
           </p>
 
           <p>
-            My background brings a unique perspective to problem-solving and
+            My background gives me a unique perspective on problem-solving and
             user experience design. I’m eager to apply my technical skills,
-            strong work ethic, and passion for learning in a professional
-            development role.
+            creativity, and strong work ethic to meaningful projects while
+            continuing to grow as a developer in a collaborative environment.
           </p>
 
           <p>
-            When I’m not coding, I enjoy working on personal projects,
-            contributing to coding communities, and staying updated on the
-            latest web development trends.
+            Outside of professional work, I enjoy developing personal projects,
+            contributing to coding communities, and staying current with the
+            latest trends in front-end development. In my free time, I’m also
+            learning backend development with Node.js, Express, and exploring
+            Next.js to expand my skill set toward full-stack development.
           </p>
         </article>
         <figure className="Maritza-image-container ">

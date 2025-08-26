@@ -37,6 +37,11 @@ export default function NavBar() {
           </a>
         </li>
         <li>
+          <a href="#clients" onClick={() => setShowMenu(false)}>
+            Clients
+          </a>
+        </li>
+        <li>
           <a href="#experience" onClick={() => setShowMenu(false)}>
             Experience
           </a>

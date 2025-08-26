@@ -10,9 +10,10 @@ export default function Home() {
       </header>
 
       <p className="Home-description">
-        Bootcamp graduate with a passion for creating beautiful, responsive web
-        applications. Eager to contribute to meaningful projects and grow as a
-        developer in a collaborative team environment.
+        Junior Front-End Developer skilled in building responsive, user-friendly
+        web applications with modern technologies. Experienced in delivering
+        real-world client projects and eager to contribute to innovative teams
+        while continuing to grow my expertise.
       </p>
 
       <div className="Home-links">
