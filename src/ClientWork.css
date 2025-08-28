@@ -107,7 +107,7 @@
   line-height: 21px;
 }
 
-.Features {
+.ClientWork .Features {
   margin-top: auto;
 }
 
@@ -117,7 +117,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24.5px;
-  margin: 25px 0 11px;
+  margin: 15px 0 11px;
 }
 
 .ClientWork .ClientCard .FullDetail ul {
@@ -125,6 +125,8 @@
   flex-wrap: wrap;
   list-style: none;
   gap: 7px;
+  margin: 0;
+  padding: 0;
 }
 
 .ClientWork .ClientCard .FullDetail ul li {
@@ -182,6 +184,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 17.5px;
+  margin: 0;
 }
 
 .ClientWork .ClientCard .MoreInfo {
@@ -214,7 +217,7 @@
   border-top: 1px solid #e2e8f0;
   margin: 24px 0 15px;
 }
-.LinkContainer {
+.ClientWork .LinkContainer {
   margin-top: auto;
 }
 

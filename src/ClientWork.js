@@ -1,5 +1,6 @@
 import React from "react";
 import "./ClientWork.css";
+import CaseStudy from "./CaseStudy";
 
 export default function ClientWork() {
   return (
@@ -101,7 +102,15 @@ export default function ClientWork() {
                   <p>View Live Site</p>
                 </a>
 
-                <a href="/">Case Study</a>
+                <CaseStudy
+                  icon={<i class="fa-solid fa-person-digging"></i>}
+                  title="JLG Concrete Cutting"
+                  description=" Case study for JLG Concrete Cutting - Construction Services website project"
+                  projectOverview="JLG Concrete Cutting needed a professional website to showcase their specialized services and build trust with potential clients in the construction industry."
+                  challenge="The main challenge was creating a design that looked professional and trustworthy while effectively showcasing their concrete cutting expertise and project portfolio."
+                  solution="I developed a clean, industrial-inspired website with intuitive navigation, responsive design, and clear service categorization that works seamlessly across mobile devices."
+                  outcome="Delivered a fully responsive website that professionally represents their business and provides an easy way for customers to learn about services and get in touch."
+                />
               </div>
             </div>
           </div>
@@ -194,8 +203,20 @@ export default function ClientWork() {
                   <i className="fa-solid fa-arrow-up-right-from-square"></i>
                   <p>View Live Site</p>
                 </a>
-
-                <a href="/">Case Study</a>
+                <CaseStudy
+                  icon={<i class="fa-solid fa-temperature-high"></i>}
+                  title="Cool Work HVAC Expert"
+                  description=" Case study for Cool Work HVAC Expert - HVAC Services website
+                project"
+                  projectOverview="Cool Work HVAC Expert required a modern website to help customers easily access their services, especially during emergency situations, while showcasing their HVAC expertise."
+                  challenge="The main challenge was to create a user-friendly website that allowed customers to quickly find information and request services, even in urgent situations."
+                  solution="I created a mobile-first design with prominent emergency contact
+                features, clear service categorization, and an intuitive user
+                flow that works seamlessly across all devices."
+                  outcome="Built a user-friendly website that effectively handles both
+                emergency situations and regular service inquiries, improving
+                the company's online presence and customer experience."
+                />
               </div>
             </div>
           </div>
