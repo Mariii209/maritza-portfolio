@@ -31,8 +31,8 @@ export default function Information() {
 
         <a
           className="Download-resume"
-          href="/Maritza_Gutierrez_Resume.pdf"
-          download="Maritza_Gutierrez_Resume.pdf"
+          href="/Maritza_Gutierrez_Resume_Junior_Front_End_Developer.pdf"
+          download="Maritza_Gutierrez_Resume_Junior_Front_End_Developer.pdf"
           rel="noopener noreferrer"
           aria-label="Download Resume"
         >

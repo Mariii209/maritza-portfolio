@@ -25,8 +25,8 @@ export default function Home() {
           <p>View My Projects</p>
         </a>
         <a
-          href="/Maritza_Gutierrez_Resume.pdf"
-          download="Maritza_Gutierrez_Resume.pdf"
+          href="/Maritza_Gutierrez_Resume_Junior_Front_End_Developer.pdf"
+          download="Maritza_Gutierrez_Resume_Junior_Front_End_Developer.pdf"
           className="Home-links__item"
           aria-label="Download Resume"
           rel="noopener noreferrer"
